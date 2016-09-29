@@ -9,8 +9,8 @@
     "errno",
     "libuv"
   ],
-  "version": "0.1.1",
-  "main": "index.js",
+  "version": "0.1.2",
+  "main": "errno.js",
   "dependencies": {
   },
   "devDependencies": {
