@@ -1,0 +1,35 @@
+{
+  "name": "node-errno-codes",
+  "authors": [
+    "Arnaud Valensi <arnaud.valensi@gmail.com> (https://github.com/ArnaudValensi)"
+  ],
+  "description": "Get libuv errno description from code",
+  "keywords": [
+    "errors",
+    "errno",
+    "libuv"
+  ],
+  "version": "0.1.1",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-eslint": "^7.0.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "dedent": "^0.6.0",
+    "eslint": "^3.6.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.0.0",
+    "request": "^2.75.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArnaudValensi/node-errno-codes"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "babel-node build.js"
+  }
+}
